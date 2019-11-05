@@ -1,0 +1,15 @@
+nav {
+    background: gray;
+    
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.menu-nav {
+    display: inline-block;
+    list-style: none;
+    font-size: 20px;
+    text-decoration: none;
+}
