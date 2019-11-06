@@ -1,0 +1,40 @@
+.home-section {
+    text-align: center;
+}
+
+.week-schedule {
+    margin-top: 20px;
+    border: 2px solid black;
+    background: white;
+    list-style: none;
+
+}
+
+.week {
+    border: 2px solid black;
+    display: inline-block;
+}
+
+.top-performers ul {
+    border: 2px solid black;
+    background: white;
+    list-style: none;
+}
+
+.most-adds ul {
+    border: 2px solid black;
+    background: white;
+    list-style: none;
+}
+  
+.most-drops ul { 
+    border: 2px solid black;
+    background: white;
+    list-style: none;
+}
+  
+.trade-targets ul {
+    border: 2px solid black;
+    background: white;
+    list-style: none;
+}
