@@ -1,0 +1,25 @@
+.teams-section {
+    text-align: center;
+}
+.teams {
+    text-align: center;
+    border: 2px solid black;
+    margin: 0;
+    padding: 25px;
+    background: white;
+    list-style: none;
+}
+  
+.west-teams {
+    border: 2px solid black;
+    margin: 0;
+    padding: 25px;
+    background: rgb(212, 212, 212);
+}
+  
+.east-teams {
+    border: 2px solid black;
+    margin: 0;
+    padding: 25px;
+    background: rgb(212, 212, 212);
+}
