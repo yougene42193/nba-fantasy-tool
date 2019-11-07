@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css'
+import { Link } from 'react-router-dom';
 
 export default class Header extends React.Component {
     render() {
@@ -8,11 +9,11 @@ export default class Header extends React.Component {
                 <nav role='navigation'>
                     <h1>NBA Fantasy Tool</h1>
                     <ul className="menu-nav">
-                        <li>Home</li>
-                        <li>Schedule</li>
-                        <li>Teams</li>
-                        <li>Standing</li>
-                        <li>Reports</li>
+                        <li><Link to='/'>Home</Link></li>
+                        <li><Link to='/schedule'>Schedule</Link></li>
+                        <li><Link to='/teams'>Teams</Link></li>
+                        <li><Link to='/standings'>Standing</Link></li>
+                        <li><Link to='/reports'>Reports</Link></li>
                     </ul>
                 </nav>
             </section>
