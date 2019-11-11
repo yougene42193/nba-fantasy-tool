@@ -7,6 +7,7 @@ import Teams from './Teams/Teams';
 import Standings from './Standings/Standings';
 import Reports from './Reports/Reports';
 import Schedule from './Schedule/Schedule';
+import Footer from './Footer/Footer'
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
           />
         </Switch>
       </main>
+      <Footer />
     </div>
   );
 }
