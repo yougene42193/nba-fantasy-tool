@@ -1,15 +1,18 @@
 nav {
     background: gray;
-    
+    overflow: hidden;
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 34px;
+    float: left;
 }
 
 .menu-nav {
     display: inline-block;
-    list-style: none;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
 }
