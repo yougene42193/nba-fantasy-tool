@@ -1,8 +1,35 @@
 import React from 'react';
 import './Standings.css'
+import axios from 'axios';
 import {ATL, BKN, BOS, CHA, CHI, CLE, DAL, DEN, DET, GSW, HOU, IND, LAC, LAL, MEM, MIA, MIL, MIN, NOP, NYK, OKC, ORL, PHI, PHX, POR, SAC, SAS, TOR, UTA, WAS} from 'react-nba-logos';
 
+
 export default class Standings extends React.Component {
+    constructor() {
+        super()
+
+        this.state = {
+            standings: []
+        }
+    }
+
+    async componentDidMount() {
+        const webApiUrl = "https://api.mysportsfeeds.com/v1.2/pull/nba/2019-2020-regular/conference_team_standings.json";
+        const apikey_token = process.env.REACT_APP_API_TOKEN;
+        const password = process.env.REACT_APP_PASSWORD;
+        let res = await axios.get(webApiUrl, {
+            headers: {
+                Authorization: "Basic " + btoa(apikey_token + ":" + password)
+            }
+        });
+          
+        console.log(res)
+
+        this.setState({
+            standings: res.data.conferenceteamstandings
+        })
+    }
+
     render() {
         return (
             <section class="standings-section">
