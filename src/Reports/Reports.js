@@ -11,25 +11,25 @@ export default class Reports extends React.Component {
                         <input type="button" value="Search"></input>
                     </form>
                 </div>
-                <h3>Reports</h3>
-                <div class="report">
-                    <img></img>
+                <h2>Reports</h2>
+                <div class="report">       
+                    <h3>Player Name - Team</h3>
                     <p>Lorem Ipsum</p>
                 </div>
                 <div class="report">
-                    <img></img>
+                    <h3>Player Name - Team</h3>                
                     <p>Lorem Ipsum</p>
                 </div>
                 <div class="report">
-                    <img></img>
+                    <h3>Player Name - Team</h3>   
                     <p>Lorem Ipsum</p>
                 </div>
                 <div class="report">
-                    <img></img>
+                    <h3>Player Name - Team</h3>                
                     <p>Lorem Ipsum</p>
                 </div>
                 <div class="report">
-                    <img></img>
+                    <h3>Player Name - Team</h3>
                     <p>Lorem Ipsum</p>
                 </div>
             </section>

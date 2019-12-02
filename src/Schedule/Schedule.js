@@ -11,7 +11,7 @@ export default class Schedule extends React.Component {
                     <option value="wk3">Week 3</option>
                     <option value="wk4">Week 4</option>
                 </select>
-                <h3>Schedule</h3>
+                <h2>Schedule</h2>
                 <table>
                     <tr>
                         <th>Monday (Date)</th>
