@@ -12,6 +12,7 @@ export default class Schedule extends React.Component {
                     <option value="wk4">Week 4</option>
                 </select>
                 <h2>Schedule</h2>
+                <div className="schedule-table">
                 <table>
                     <tr>
                         <th>Monday (Date)</th>
@@ -71,6 +72,7 @@ export default class Schedule extends React.Component {
                         </th>
                     </tr>
                 </table>
+                </div>
             </section>
         )
     }
